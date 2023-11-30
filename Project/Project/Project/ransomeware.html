@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malware Awareness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 1000px;
+    margin: 90px auto 20px; /* Adjusted margin to include the navbar height */
+    padding: 50px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar {
+      background-color: #343a40;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff;
+    }
+    #logo{
+      height: 50px;
+      margin-right: 10px;
+    }
+    .image{
+        margin: 20px;
+        height: 400px;
+    }
+    .embed-responsive{
+        margin-top: 20px;
+    }
+    </style>
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <img id="logo" src="./Images/logo/Screenshot 2023-11-29 102424.png">
+        <a class="navbar-brand" href="index.html">CyberKnowledge</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    <section>
+        <h1 class="display-4">Ransomware</h1>
+        <img style="max-width: 100%; height: auto;" class="image" src="./Images/Ransomware.jpg">
+        <p class="lead">Ransomware is a modern day, technical twist on a crime that has been around for ages - extortion. At its core, ransomware works when criminals steal something of great value and demand payment in exchange for its return. For most businesses, this involves the encryption of company data. When ransomware hits, businesses come to a standstill, and employees cannot do their jobs.
+            Without restorable backup data, the company is generally at the mercy of the attacker who will hold your data hostage in exchange for a decryption key you can buy with Bitcoin.
+            Ransomware has matured into its own category of malware and should be a primary concern for all organizations. According to new research, ransomware breaches have increased by 13% – more than the last five years combined.
+            </p>
+        <!-- Add the rest of your content here -->
+        <h2 class="display-4">Popular Ransomware Variants</h2>
+        <p class="lead">
+            <ol class="lead">
+                <li>Ryuk: Ryuk is an example of a very targeted ransomware variant. It is commonly delivered via spear phishing emails or by using compromised user credentials to log into enterprise systems using the Remote Desktop Protocol (RDP). Once a system is infected, Ryuk encrypts certain types of files (avoiding those crucial to a computer’s operation), then presents a ransom demand.
+                    Ryuk is well-known as one of the most expensive types of ransomware in existence. Ryuk demands ransoms that average over $1 million. As a result, the cybercriminals behind Ryuk primarily focus on enterprises that have the resources necessary to meet their demands.
+                    </li>
+                <li>Maze: The Maze ransomware is famous for being the first ransomware variant to combine file encryption and data theft. When targets started refusing to pay ransoms, Maze began collecting sensitive data from victims’ computers before encrypting it. If the ransom demands were not met, this data would be publicly exposed or sold to the highest bidder. The potential for an expensive data breach was used as additional incentive to pay up.
+                    The group behind the Maze ransomware has officially ended its operations. However, this does not mean that the threat of ransomware has been reduced. Some Maze affiliates have transitioned to using the Egregor ransomware, and the Egregor, Maze, and Sekhmet variants are believed to have a common source.
+                    </li>
+                <li>REvil : The REvil group (also known as Sodinokibi ) is another ransomware variant that targets large organizations.
+                    REvil is one of the most well-known ransomware families on the net. The ransomware group, which has been operated by the Russian-speaking REvil group since 2019, has been responsible for many big breaches such as ‘Kaseya‘ and ‘JBS’
+                    It has competed with Ryuk over the last several years for the title of the most expensive ransomware variant. REvil is known to have demanded $800,000 ransom payments.
+                    While REvil began as a traditional ransomware variant, it has evolved over time-
+                    They are using the Double Extortion technique- to steal data from businesses while also encrypting the files. This means that, in addition to demanding a ransom to decrypt data, attackers might threaten to release the stolen data if a second payment is not made.
+                    </li>
+                <li>LockBit: LockBit is a data encryption malware in operation since September 2019 and a recent Ransomware-as-a-Service (RaaS). This piece of ransomware was developed to encrypt large organizations rapidly as a way of preventing its detection quickly by security appliances and IT/SOC teams. </li>
+                <li>DearCry: In March 2021, Microsoft released patches for four vulnerabilities within Microsoft Exchange servers. DearCry is a new ransomware variant designed to take advantage of four recently disclosed vulnerabilities in Microsoft Exchange
+                    The DearCry ransomware encrypts certain types of files. Once the encryption is finished, DearCry will show a ransom message instructing users to send an email to the ransomware operators in order to learn how to decrypt their files.
+                    </li>
+                <li>Lapsus$: Lapsus$ is a South American ransomware gang that has been linked to cyberattacks on some high-profile targets. The cyber gang is known for extortion, threatening the release of sensitive information, if demands by its victims aren’t made. The group has boasted breaking into Nvidia, Samsung, Ubisoft and others. The group uses stolen source code to disguise malware files as trustworthy.</li>
+            </ol> </p>
+        
+        <h2 class="display-4">How Ransomware Works</h2>
+        <ul class="lead">
+            <li>Step 1. Infection and Distribution Vectors
+                Ransomware, like any malware, can gain access to an organization’s systems in a number of different ways. However, ransomware operators tend to prefer a few specific infection vectors.
+                One of these is phishing emails. A malicious email may contain a link to a website hosting a malicious download or an attachment that has downloader functionality built in. If the email recipient falls for the phish, then the ransomware is downloaded and executed on their computer.
+                Another popular ransomware infection vector takes advantage of services such as the Remote Desktop Protocol (RDP). With RDP, an attacker who has stolen or guessed an employee’s login credentials can use them to authenticate to and remotely access a computer within the enterprise network. With this access, the attacker can directly download the malware and execute it on the machine under their control.
+                Others may attempt to infect systems directly, like how WannaCry exploited the EternalBlue vulnerability. Most ransomware variants have multiple infection vectors.
+                </li>
+            <li>Step 2. Data Encryption
+                After ransomware has gained access to a system, it can begin encrypting its files. Since encryption functionality is built into an operating system, this simply involves accessing files, encrypting them with an attacker-controlled key, and replacing the originals with the encrypted versions. Most ransomware variants are cautious in their selection of files to encrypt to ensure system stability. Some variants will also take steps to delete backup and shadow copies of files to make recovery without the decryption key more difficult.
+               </li>
+            <li>Step 3. Ransom Demand
+                Once file encryption is complete, the ransomware is prepared to make a ransom demand. Different ransomware variants implement this in numerous ways, but it is not uncommon to have a display background changed to a ransom note or text files placed in each encrypted directory containing the ransom note. Typically, these notes demand a set amount of cryptocurrency in exchange for access to the victim’s files. If the ransom is paid, the ransomware operator will either provide a copy of the private key used to protect the symmetric encryption key or a copy of the symmetric encryption key itself. This information can be entered into a decryptor program (also provided by the cybercriminal) that can use it to reverse the encryption and restore access to the user’s files.
+                While these three core steps exist in all ransomware variants, different ransomware can include different implementations or additional steps. For example, ransomware variants like Maze perform files scanning, registry information, and data theft before data encryption, and the WannaCry ransomware scans for other vulnerable devices to infect and encrypt.
+                </li>
+            </ol>
+            <h2 class="display-4">How to prevent ransomware attacks</h2>
+        <ul class="lead">
+            <li>
+                Defense-in-depth security. A defense-in-depth approach has layered security controls that work in concert to block malicious activity. If malware manages to sneak past one control, the hope is that another overlapping security mechanism will stop it.
+
+                Experts recommend, at a minimum, deploying foundational cybersecurity tools and strategies such as antimalware, multifactor authentication, firewalls, email security filtering, web filtering, network traffic analysis, allowlisting/denylisting, endpoint detection and response, the principle of least privilege and secure remote access technologies, including VPNs and zero-trust network access. They also advise organizations to limit or block the use of RDP.
+                </li>
+            <li>Advanced security controls. While basic cybersecurity controls can recognize and catch many known ransomware variants, advanced protection technologies are more likely to uncover novel attacks. Consider tools and strategies such as extended detection and response (XDR), managed detection and response, Secure Access Service Edge, SIEM, user and entity behavior analytics, zero-trust security and cyber deception. </li>
+            <li>Patch management. When the WannaCry ransomware attack first struck in May 2017, it took advantage of a known vulnerability for which Microsoft had released a patch two months earlier -- one that hundreds of thousands of victims had not yet deployed. Remarkably, organizations with unpatched systems still continue to fall victim to WannaCry and many other legacy attacks.
+
+                While organizations sometimes have good reasons for delaying software and system updates -- because patches can cause performance issues that affect business operations, for example -- they must weigh them against the costs of potentially catastrophic security incidents. Follow patch management best practices to dramatically reduce the risk of ransomware.
+                 </li>
+            <li>Data backups. Backups of critical data can effectively short-circuit a ransomware attack, letting an organization restore operations without entertaining cybercriminals' demands. Crucially, however, the backup must be inaccessible from the primary IT environment so threat actors can't find and encrypt it during the intrusion. It is also important to note that while backups are an important part of ransomware defense, they are not a cure-all, especially in the event of double or triple extortion attacks.</li>
+            </ol>
+            
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lIsWpCMBxHQ" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2023 Ransomware Awareness
+    </footer>
+</body>
+
+</html>
